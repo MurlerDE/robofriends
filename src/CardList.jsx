@@ -5,7 +5,7 @@ import Card from './Card'
 const CardList = ({ robots }) => {
     return (
         <>
-            <section className='gap-2 grid grid-cols-6 mx-auto w-full max-w-[80%]'>
+            <section className='gap-2 grid grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] mx-auto w-full max-w-[80%]'>
                 {
                     robots.map((user, i) => {
                         return (
